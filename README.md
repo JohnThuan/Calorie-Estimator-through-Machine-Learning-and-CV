@@ -2,6 +2,18 @@
 
 A mobile application that estimates calorie content from food images using deep learning. Built with React Native (Expo) and FastAPI, featuring a custom-trained EfficientNet-B4 model on the Food-101 dataset.
 
+## Screenshots
+
+  <p align="center">
+    <img src="screenshots/home.png" width="250" alt="Home Screen" />
+    <img src="screenshots/camera1.png" width="250" alt="Camera Screen" />
+    <img src="screenshots/camera2.png" width="250" alt="Camera" />
+    <img src="screenshots/steak.png" width="250" alt="Results Screen" />
+    <img src="screenshots/icecream.png" width="250" alt="Results Screen" />
+  </p>
+
+
+
 ## Features
 
 - **Real-time Food Recognition**: Capture or upload food images for instant analysis
@@ -10,6 +22,12 @@ A mobile application that estimates calorie content from food images using deep 
 - **Portion Size Estimation**: Computer vision-based portion size analysis
 - **Baseline Comparison**: Compare detected items against a reference baseline
 - **Analysis History**: Track and review past meal analyses
+
+## System Architecture
+
+<p align="center">
+  <img src="screenshots/architecture-diagram.png" width="700" alt="System Architecture" />
+</p>
 
 ## Technical Stack
 
@@ -43,6 +61,13 @@ A mobile application that estimates calorie content from food images using deep 
   - AdamW optimizer with weight decay
   - Cosine annealing learning rate schedule
   - Early stopping
+
+### Training Progress
+
+<p align="center">
+  <img src="screenshots/training-accuracy.png" width="400" alt="Training Accuracy" />
+  <img src="screenshots/training-loss.png" width="400" alt="Training Loss" />
+</p>
 
 ## Project Structure
 
