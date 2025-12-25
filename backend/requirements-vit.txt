@@ -1,0 +1,12 @@
+# Vision Transformer training dependencies
+transformers==4.36.0
+datasets==2.16.0
+accelerate==0.25.0
+evaluate==0.4.1
+scikit-learn==1.4.0
+
+
+
+
+
+

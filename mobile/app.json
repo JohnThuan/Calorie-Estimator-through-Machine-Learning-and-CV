@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Calorie Estimation through CV",
+    "slug": "calorie-estimation-cv",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "calorie-estimation-cv",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.calorieestimation.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to capture meal photos for calorie estimation.",
+        "NSPhotoLibraryUsageDescription": "NutriLens needs access to your photo library to select meal photos for analysis."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nutrilens.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow NutriLens to access your camera to capture meal photos."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow NutriLens to access your photos to select meal images."
+        }
+      ]
+    ]
+  }
+}
+
