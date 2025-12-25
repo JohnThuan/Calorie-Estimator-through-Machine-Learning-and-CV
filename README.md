@@ -5,11 +5,11 @@ A mobile application that estimates calorie content from food images using deep 
 ## Screenshots
 
   <p align="center">
-    <img src="screenshots/home.png" width="250" alt="Home Screen" />
-    <img src="screenshots/camera1.png" width="250" alt="Camera Screen" />
-    <img src="screenshots/camera2.png" width="250" alt="Camera" />
-    <img src="screenshots/steak.png" width="250" alt="Results Screen" />
-    <img src="screenshots/icecream.png" width="250" alt="Results Screen" />
+    <img src="screenshots/home.PNG" width="250" alt="Home Screen" />
+    <img src="screenshots/camera1.PNG" width="250" alt="Camera Screen" />
+    <img src="screenshots/camera2.PNG" width="250" alt="Camera" />
+    <img src="screenshots/steak.PNG" width="250" alt="Results Screen" />
+    <img src="screenshots/icecream.PNG" width="250" alt="Results Screen" />
   </p>
 
 
