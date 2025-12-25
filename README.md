@@ -23,11 +23,6 @@ A mobile application that estimates calorie content from food images using deep 
 - **Baseline Comparison**: Compare detected items against a reference baseline
 - **Analysis History**: Track and review past meal analyses
 
-## System Architecture
-
-<p align="center">
-  <img src="screenshots/architecture-diagram.png" width="700" alt="System Architecture" />
-</p>
 
 ## Technical Stack
 
@@ -62,12 +57,6 @@ A mobile application that estimates calorie content from food images using deep 
   - Cosine annealing learning rate schedule
   - Early stopping
 
-### Training Progress
-
-<p align="center">
-  <img src="screenshots/training-accuracy.png" width="400" alt="Training Accuracy" />
-  <img src="screenshots/training-loss.png" width="400" alt="Training Loss" />
-</p>
 
 ## Project Structure
 
